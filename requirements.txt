@@ -3,3 +3,4 @@ uvicorn
 transformers
 torch
 scikit-learn
+gunicorn
