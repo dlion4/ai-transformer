@@ -1,9 +1,12 @@
-GEMINI_API_KEY="AIzaSyCMLe1vsA9rMVxKiFRFbiROGRJ_iCw2pgs"
-
+import environ
 import google.generativeai as genai
-import os
 
-genai.configure(api_key=GEMINI_API_KEY)
+env = environ.Env()
+
+env.read_env(".env")
+
+
+genai.configure(api_key=env.str("GEMINI_API_KEY"))
 
 
 para = """

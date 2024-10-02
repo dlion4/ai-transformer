@@ -3,3 +3,4 @@ uvicorn
 torch
 scikit-learn
 google-generativeai
+django-environ
