@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 gunicorn
 uvicorn
 torch
 scikit-learn
 google-generativeai
 django-environ
+=======
+fastapi
+uvicorn
+transformers
+torch
+scikit-learn
+gunicorn
+>>>>>>> 052003689e9682ff530a193ba93878ae98f75d1e
